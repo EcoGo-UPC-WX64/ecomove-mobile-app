@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ecomove-mobile-app</string>
+    <string name="soporte_al_cliente">SOPORTE AL CLIENTE</string>
+    <string name="problemas_t_cnicos">Problemas Técnicos</string>
+    <string name="si_est_s_experimentando_alg_n_problema_t_cnico_con_la_plataforma_ecogo_como_dificultades_para_registrarte_errores_al_reservar_un_veh_culo_o_problemas_de_acceso_a_la_aplicaci_n_estamos_aqu_para_ayudarte_nuestro_equipo_t_cnico_est_comprometido_en_solucionar_cualquier_inconveniente_que_puedas_tener_para_garantizar_una_experiencia_fluida_y_satisfactoria">Si estás experimentando algún problema técnico con la plataforma EcoGo, como dificultades para registrarte, errores al reservar un vehículo o problemas de acceso a la aplicación, estamos aquí para ayudarte. Nuestro equipo técnico está comprometido en solucionar cualquier inconveniente que puedas tener para garantizar una experiencia fluida y satisfactoria.</string>
+    <string name="consultas">Consultas</string>
+    <string name="tienes_preguntas_sobre_c_mo_funciona_ecogo_c_mo_registrarte_como_usuario_c_mo_reservar_un_veh_culo_o_cualquier_otra_consulta_relacionada_con_nuestros_servicios_estamos_aqu_para_responderlas_nuestro_equipo_de_atenci_n_al_cliente_est_disponible_para_brindarte_toda_la_informaci_n_que_necesites_y_ayudarte_a_sacar_el_m_ximo_provecho_de_nuestra_plataforma_de_movilidad_sostenible">¿Tienes preguntas sobre cómo funciona EcoGo, cómo registrarte como usuario, cómo reservar un vehículo o cualquier otra consulta relacionada con nuestros servicios? ¡Estamos aquí para responderlas! Nuestro equipo de atención al cliente está disponible para brindarte toda la información que necesites y ayudarte a sacar el máximo provecho de nuestra plataforma de movilidad sostenible.</string>
+    <string name="alertas">ALERTAS</string>
+    <string name="consejos_de_uso_de_veh_culos">Consejos de uso de vehículos</string>
+    <string name="_8226_siempre_use_casco_y_equipo_de_protecci_n_al_andar_en_bicicletas_o_scooters_el_ctricos_n_n_8226_respete_las_normas_de_tr_fico_y_circule_por_carriles_designados_cuando_est_en_la_v_a_p_blica_n_n_8226_antes_de_comenzar_su_viaje_aseg_rese_de_que_la_bicicleta_o_el_scooter_est_n_en_condiciones_seguras_de_funcionamiento">• Siempre use casco y equipo de protección al andar en bicicletas o scooters eléctricos.\n\n• Respete las normas de tráfico y circule por carriles designados cuando esté en la vía pública.\n\n• Antes de comenzar su viaje, asegúrese de que la bicicleta o el scooter estén en condiciones seguras de funcionamiento.</string>
+    <string name="_8226_antes_de_comenzar_su_viaje_verifique_la_carga_de_la_bater_a_para_evitar_quedarse_sin_energ_a_en_el_camino_n_n_8226_mantenga_una_velocidad_segura_y_adecuada_para_las_condiciones_del_entorno_en_el_que_se_encuentre_n_n_8226_estacione_los_veh_culos_en_reas_designadas_y_seguras_para_evitar_obstrucciones_y_garantizar_la_accesibilidad_para_otros_usuarios">• Antes de comenzar su viaje, verifique la carga de la batería para evitar quedarse sin energía en el camino.\n\n• Mantenga una velocidad segura y adecuada para las condiciones del entorno en el que se encuentre.\n\n• Estacione los vehículos en áreas designadas y seguras para evitar obstrucciones y garantizar la accesibilidad para otros usuarios.</string>
+    <string name="avisos_de_seguridad">Avisos de Seguridad</string>
+    <string name="value">value</string>
+    <string name="publicar_en_el_blog">Publicar en el blog</string>
+    <string name="contenido_del_blog">Contenido del blog:</string>
+    <string name="t_tulo_del_blog">Título del Blog:</string>
+    <string name="publicar_en_el_blog_titulo">PUBLICAR EN EL BLOG</string>
+    <string name="volver">Volver</string>
+    <string name="medallas_obtenidas">MEDALLAS OBTENIDAS</string>
+</resources>

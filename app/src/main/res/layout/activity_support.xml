@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6F4FB"
+    tools:context=".SupportActivity">
+
+    <TextView
+        android:id="@+id/tvSupport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="600dp"
+        android:text="@string/soporte_al_cliente"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvIssues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/problemas_t_cnicos"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvIssuesText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSupport" />
+
+    <TextView
+        android:id="@+id/tvIssuesText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="390dp"
+        android:text="@string/si_est_s_experimentando_alg_n_problema_t_cnico_con_la_plataforma_ecogo_como_dificultades_para_registrarte_errores_al_reservar_un_veh_culo_o_problemas_de_acceso_a_la_aplicaci_n_estamos_aqu_para_ayudarte_nuestro_equipo_t_cnico_est_comprometido_en_solucionar_cualquier_inconveniente_que_puedas_tener_para_garantizar_una_experiencia_fluida_y_satisfactoria"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvIssues" />
+
+    <TextView
+        android:id="@+id/tvConsult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="177dp"
+        android:text="@string/consultas"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvConsultText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="450dp"
+        android:text="@string/tienes_preguntas_sobre_c_mo_funciona_ecogo_c_mo_registrarte_como_usuario_c_mo_reservar_un_veh_culo_o_cualquier_otra_consulta_relacionada_con_nuestros_servicios_estamos_aqu_para_responderlas_nuestro_equipo_de_atenci_n_al_cliente_est_disponible_para_brindarte_toda_la_informaci_n_que_necesites_y_ayudarte_a_sacar_el_m_ximo_provecho_de_nuestra_plataforma_de_movilidad_sostenible"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvConsult" />
+</androidx.constraintlayout.widget.ConstraintLayout>

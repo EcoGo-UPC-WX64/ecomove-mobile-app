@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6F4FB"
+    tools:context=".AlertsActivity">
+
+    <TextView
+        android:id="@+id/tvWarnings"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="177dp"
+        android:text="@string/avisos_de_seguridad"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAlerts" />
+
+    <TextView
+        android:id="@+id/tvAdviceText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="90dp"
+        android:text="@string/_8226_antes_de_comenzar_su_viaje_verifique_la_carga_de_la_bater_a_para_evitar_quedarse_sin_energ_a_en_el_camino_n_n_8226_mantenga_una_velocidad_segura_y_adecuada_para_las_condiciones_del_entorno_en_el_que_se_encuentre_n_n_8226_estacione_los_veh_culos_en_reas_designadas_y_seguras_para_evitar_obstrucciones_y_garantizar_la_accesibilidad_para_otros_usuarios"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAdvice" />
+
+    <TextView
+        android:id="@+id/tvWarningsText"
+        style="android.text.b"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="380dp"
+        android:text="@string/_8226_siempre_use_casco_y_equipo_de_protecci_n_al_andar_en_bicicletas_o_scooters_el_ctricos_n_n_8226_respete_las_normas_de_tr_fico_y_circule_por_carriles_designados_cuando_est_en_la_v_a_p_blica_n_n_8226_antes_de_comenzar_su_viaje_aseg_rese_de_que_la_bicicleta_o_el_scooter_est_n_en_condiciones_seguras_de_funcionamiento"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWarnings" />
+
+    <TextView
+        android:id="@+id/tvAdvice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="300dp"
+        android:text="@string/consejos_de_uso_de_veh_culos"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWarningsText" />
+
+    <TextView
+        android:id="@+id/tvAlerts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="600dp"
+        android:text="@string/alertas"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
