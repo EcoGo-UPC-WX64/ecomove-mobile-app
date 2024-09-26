@@ -1,6 +1,5 @@
 package com.example.ecomove
 
-
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -9,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -22,8 +21,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun startRegisterActivity(view: View) {
-    val intent = Intent(this, RegisterActivity::class.java)
-    startActivity(intent)
+        val intent = Intent(this, RegisterActivity::class.java)
+        startActivity(intent)
     }
-
 }

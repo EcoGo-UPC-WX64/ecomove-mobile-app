@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.ecomove"
+    namespace = "com.example.prueba"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.ecomove"
+        applicationId = "com.example.prueba"
         minSdk = 28
         targetSdk = 34
         versionCode = 1
@@ -42,10 +42,6 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-<<<<<<< HEAD
-    implementation(libs.play.services.maps)
-=======
->>>>>>> origin/develop
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
