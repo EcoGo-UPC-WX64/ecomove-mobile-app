@@ -17,18 +17,18 @@
         android:padding="16dp">
 
         <ImageView
-            android:id="@+id/image_view"
+            android:id="@+id/ivResena"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/tvNombreBlog"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_toEndOf="@id/image_view"
+            android:layout_toEndOf="@id/ivResena"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="20sp"
@@ -38,7 +38,7 @@
             />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/tvTextoBlog"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -51,7 +51,7 @@
             card_view:text="Excelente opción para movilizarse en la ciudad, muy sencillo los pasos para utilizarla. y lo mejor es económico. Me encantó" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btVerResena"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
