@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EcoMove</string>
+    <string name="volver_a_generar">Volver a generar</string>
+    <string name="introduce_este_codigo_para_poder_usar_el_vehiculo">Introduce este codigo para poder usar el vehiculo</string>
+    <string name="vehiculos_disponibles">VEHICULOS DISPONIBLES</string>
+    <string name="vehiculos_disponible">Vehiculos disponibles:</string>
+    <string name="scooter">Scooter:</string>
+    <string name="bicicletas">Bicicletas:</string>
+    <string name="ver_rese_a">Ver reseña</string>
+    <string name="blog">BLOG</string>
+    <string name="publicar_en_el_blog">Publicar en el Blog</string>
+</resources>

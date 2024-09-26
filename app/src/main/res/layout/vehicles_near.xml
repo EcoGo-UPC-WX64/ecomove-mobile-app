@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6F4FB">
+
+    <TextView
+        android:id="@+id/tvVehiclesNear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="77dp"
+        android:text="VEHICULOS CERCANOS"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView2"
+        android:layout_width="300dp"
+        android:layout_height="348dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvVehiclesNear" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="291dp"
+        android:layout_height="206dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="60dp"
+        android:text="Lorem ipsum dolor sit amet consectetur. Suscipit ultricies sodales amet et. Nunc sem in facilisis nec eget venenatis senectus senectus. Iaculis dui ut iaculis non molestie lectus eget risus. Enim risus sed ac viverra nunc dui. Eget tristique amet tempor tortor duis gravida. Facilisis eu tellus in feugiat nisl sem faucibus ut dignissim. Feugiat nunc accumsan sit ultricies lacus nulla hendrerit etiam. Cursus neque tortor est ultrices risus sit ac. Eu commodo ultrices condimentum cursus lorem."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
