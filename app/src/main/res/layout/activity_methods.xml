@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6F4FB"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_metodos_pago"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="36dp"
+        android:text="MÉTODO DE PAGO"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_tarjeta"
+        android:layout_width="360dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#0687B9"
+        android:text="Tarjeta Visa"
+        android:textSize="16sp"
+        app:icon="@drawable/icon"
+        app:iconGravity="textStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_metodos_pago" />
+
+    <Button
+        android:id="@+id/bt_return"
+        android:layout_width="0dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="80dp"
+        android:backgroundTint="#4F889E"
+        android:text="Volver a reservas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_tarjeta" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

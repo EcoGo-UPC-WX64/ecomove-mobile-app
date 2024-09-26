@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/tv_suscriptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E6F4FB">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:text="SUSCRIPCIONES"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="403dp"
+            android:layout_height="533dp"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="25dp"
+            android:background="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+        <TextView
+            android:id="@+id/tv_pass_premium"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="PASS PREMIUM"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="@+id/view2"
+            app:layout_constraintHorizontal_bias="0.467"
+            app:layout_constraintStart_toStartOf="@+id/view2"
+            app:layout_constraintTop_toTopOf="@+id/view2" />
+
+        <TextView
+            android:id="@+id/tv_information_1_pass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Tarifa menual más alta con"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/view2"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="@+id/view2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_pass_premium" />
+
+        <TextView
+            android:id="@+id/tv_information_2_pass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="beneficios adicionales"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/view2"
+            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintStart_toStartOf="@+id/view2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_information_1_pass" />
+
+        <TextView
+            android:id="@+id/tv_list_1_pass"
+            android:layout_width="290dp"
+            android:layout_height="189dp"
+            android:layout_marginTop="20dp"
+            android:text="• Acceso ilimitado a viajes al mes.\n\n• Tiempo de alquiler extendido por viaje.\n\n• Prioridad de acceso en zonas con alta demanda."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/view2"
+            app:layout_constraintHorizontal_bias="0.641"
+            app:layout_constraintStart_toStartOf="@+id/view2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_information_2_pass" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="405dp"
+            android:layout_height="546dp"
+            android:layout_marginTop="50dp"
+            android:background="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            app:layout_constraintStart_toStartOf="@+id/view2"
+            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+        <TextView
+            android:id="@+id/tv_price_1_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="S/39.90"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/view2"
+            app:layout_constraintStart_toStartOf="@+id/view2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_list_1_pass" />
+
+        <Button
+            android:id="@+id/bt_information_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#4F889E"
+            android:text="Más información"
+            app:layout_constraintEnd_toEndOf="@+id/view2"
+            app:layout_constraintStart_toStartOf="@+id/view2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_price_1_pass"
+            app:toggleCheckedStateOnClick="false" />
+
+        <TextView
+            android:id="@+id/tv_pro_premium"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="PRO PREMIUM"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="@+id/view3"
+            app:layout_constraintStart_toStartOf="@+id/view3"
+            app:layout_constraintTop_toTopOf="@+id/view3" />
+
+        <TextView
+            android:id="@+id/tv_information_1_pro"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Tarifa mensual más alta con "
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/tv_pro_premium"
+            app:layout_constraintStart_toStartOf="@+id/tv_pro_premium"
+            app:layout_constraintTop_toBottomOf="@+id/tv_pro_premium" />
+
+        <TextView
+            android:id="@+id/tv_information_2_pro"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="beneficios adicionales."
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/tv_information_1_pro"
+            app:layout_constraintStart_toStartOf="@+id/tv_information_1_pro"
+            app:layout_constraintTop_toBottomOf="@+id/tv_information_1_pro" />
+
+        <TextView
+            android:id="@+id/tv_list_1_pro"
+            android:layout_width="284dp"
+            android:layout_height="201dp"
+            android:layout_marginTop="20dp"
+            android:text="• Acceso ilimitado a viajes al mes.\n\n• Tiempo de alquiler extendido por viaje.\n\n• Prioridad de acceso en zonas con alta demanda."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/view3"
+            app:layout_constraintHorizontal_bias="0.605"
+            app:layout_constraintStart_toStartOf="@+id/view3"
+            app:layout_constraintTop_toBottomOf="@+id/tv_information_2_pro" />
+
+        <TextView
+            android:id="@+id/tv_price_1_pro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="S/39.90"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/tv_list_1_pro"
+            app:layout_constraintHorizontal_bias="0.424"
+            app:layout_constraintStart_toStartOf="@+id/tv_list_1_pro"
+            app:layout_constraintTop_toBottomOf="@+id/tv_list_1_pro" />
+
+        <Button
+            android:id="@+id/bt_information_2"
+            android:layout_width="167dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#4F889E"
+            android:text="Más información"
+            app:layout_constraintEnd_toEndOf="@+id/tv_price_1_pro"
+            app:layout_constraintStart_toStartOf="@+id/tv_price_1_pro"
+            app:layout_constraintTop_toBottomOf="@+id/tv_price_1_pro" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="399dp"
+            android:layout_height="569dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:background="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+        <TextView
+            android:id="@+id/tv_pro_unlimited"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="UNLIMITED PREMIUM"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="@+id/view4"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/view4"
+            app:layout_constraintTop_toTopOf="@+id/view4" />
+
+        <TextView
+            android:id="@+id/tv_information_1_unlimited"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Tarifa mensual más alta con "
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/tv_pro_unlimited"
+            app:layout_constraintStart_toStartOf="@+id/tv_pro_unlimited"
+            app:layout_constraintTop_toBottomOf="@+id/tv_pro_unlimited" />
+
+        <TextView
+            android:id="@+id/tv_information_2_unlimited"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="beneficios adicionales."
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/tv_information_1_unlimited"
+            app:layout_constraintStart_toStartOf="@+id/tv_information_1_unlimited"
+            app:layout_constraintTop_toBottomOf="@+id/tv_information_1_unlimited" />
+
+        <TextView
+            android:id="@+id/tv_list_1_unlimited"
+            android:layout_width="284dp"
+            android:layout_height="201dp"
+            android:layout_marginTop="20dp"
+            android:text="• Acceso ilimitado a viajes al mes.\n\n• Tiempo de alquiler extendido por viaje.\n\n• Prioridad de acceso en zonas con alta demanda."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/view4"
+            app:layout_constraintHorizontal_bias="0.608"
+            app:layout_constraintStart_toStartOf="@+id/view4"
+            app:layout_constraintTop_toBottomOf="@+id/tv_information_2_unlimited" />
+
+        <TextView
+            android:id="@+id/tv_price_1_unlimited"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="S/39.90"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/tv_list_1_unlimited"
+            app:layout_constraintHorizontal_bias="0.438"
+            app:layout_constraintStart_toStartOf="@+id/tv_list_1_unlimited"
+            app:layout_constraintTop_toBottomOf="@+id/tv_list_1_unlimited" />
+
+        <Button
+            android:id="@+id/bt_information_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#4F889E"
+            android:text="Más información"
+            app:layout_constraintEnd_toEndOf="@+id/tv_price_1_unlimited"
+            app:layout_constraintStart_toStartOf="@+id/tv_price_1_unlimited"
+            app:layout_constraintTop_toBottomOf="@+id/tv_price_1_unlimited" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
