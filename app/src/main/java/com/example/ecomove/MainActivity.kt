@@ -1,5 +1,6 @@
 package com.example.ecomove
 
+
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -24,4 +25,5 @@ class MainActivity : AppCompatActivity() {
     val intent = Intent(this, RegisterActivity::class.java)
     startActivity(intent)
     }
+
 }

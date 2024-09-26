@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6F4FB">
+
+    <TextView
+        android:id="@+id/tvVehiculosDisponibles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="60dp"
+        android:text="@string/vehiculos_disponibles"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNumeroVehiculosDisponibles"
+        android:layout_width="53dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rent_vehicles_background"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvNumeroScooters"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvVehiculosDisponibles"
+        tools:text="10" />
+
+    <TextView
+        android:id="@+id/tvIndicadorVehiculosDisponibles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="22dp"
+        android:text="@string/vehiculos_disponible"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvNumeroVehiculosDisponibles"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvVehiculosDisponibles" />
+
+    <TextView
+        android:id="@+id/tvIndicadorScooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="22dp"
+        android:text="@string/scooter"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvNumeroScooters"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvIndicadorVehiculosDisponibles" />
+
+    <TextView
+        android:id="@+id/tvIndicadorBicicletas"
+        android:layout_width="88dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="227dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="22dp"
+        android:text="@string/bicicletas"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvNumeroBicicletas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvIndicadorScooter" />
+
+    <TextView
+        android:id="@+id/tvNumeroBicicletas"
+        android:layout_width="53dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/rent_vehicles_background"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNumeroScooters"
+        tools:text="3" />
+
+    <TextView
+        android:id="@+id/tvNumeroScooters"
+        android:layout_width="53dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/rent_vehicles_background"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNumeroVehiculosDisponibles"
+        tools:text="7" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="326dp"
+        android:layout_height="364dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUbicacion" />
+
+    <EditText
+        android:id="@+id/etUbicacion"
+        android:layout_width="328dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/rent_vehicles_background"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:text="Ubicacion"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNumeroBicicletas" />
+
+    <TextView
+        android:id="@+id/tvUbicacionTexto"
+        android:layout_width="286dp"
+        android:layout_height="196dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="64dp"
+        android:text="Lorem ipsum dolor sit amet consectetur. Suscipit ultricies sodales amet et. Nunc sem in facilisis nec eget venenatis senectus senectus. Iaculis dui ut iaculis non molestie lectus eget risus. Enim risus sed ac viverra nunc dui. Eget tristique amet tempor tortor duis gravida. Facilisis eu tellus in feugiat nisl sem faucibus ut dignissim. Feugiat nunc accumsan sit ultricies lacus nulla hendrerit etiam. Cursus neque tortor est ultrices risus sit ac. Eu commodo ultrices condimentum cursus lorem."
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
