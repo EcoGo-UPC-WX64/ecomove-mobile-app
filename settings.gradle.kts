@@ -21,7 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "EcoMove"
 include(":app")
-<<<<<<< HEAD
- 
-=======
->>>>>>> origin/develop

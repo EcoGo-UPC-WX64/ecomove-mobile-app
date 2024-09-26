@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">EcoMove</string>
-<<<<<<< HEAD
     <string name="volver_a_generar">Volver a generar</string>
     <string name="introduce_este_codigo_para_poder_usar_el_vehiculo">Introduce este codigo para poder usar el vehiculo</string>
     <string name="vehiculos_disponibles">VEHICULOS DISPONIBLES</string>
@@ -10,7 +9,6 @@
     <string name="ver_rese_a">Ver reseña</string>
     <string name="blog">BLOG</string>
     <string name="publicar_en_el_blog">Publicar en el Blog</string>
-=======
     <string name="go_to_login">Go to login</string>
     <string name="login">LOGIN</string>
     <string name="nombres">Nombres</string>
@@ -20,5 +18,4 @@
     <string name="google">Google</string>
     <string name="crear_nueva_cuenta">Crear Nueva Cuenta</string>
     <string name="olvidaste_tu_contrase_a">¿Olvidaste Tu Contraseña?</string>
->>>>>>> origin/develop
 </resources>

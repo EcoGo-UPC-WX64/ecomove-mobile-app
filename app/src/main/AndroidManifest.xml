@@ -13,15 +13,12 @@
         android:theme="@style/Theme.EcoMove"
         tools:targetApi="31">
         <activity
-<<<<<<< HEAD
-=======
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
->>>>>>> origin/develop
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
