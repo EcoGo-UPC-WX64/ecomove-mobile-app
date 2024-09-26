@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:gravity="center"
-            android:text="Hola,Logan"
+            android:text="@string/bienbenida"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -37,7 +37,7 @@
             android:layout_marginBottom="60dp"
             android:drawablePadding="4dp"
             android:gravity="center"
-            android:text="Cerrar seción"
+            android:text="@string/cerrar_seci_n"
             android:textSize="16sp" />
 
         <!-- Opciones principales -->
@@ -70,7 +70,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Reserva"
+                    android:text="@string/reservaP"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -95,7 +95,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Logros"
+                    android:text="@string/logros"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -120,7 +120,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Historial"
+                    android:text="@string/historial"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -145,7 +145,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Blog"
+                    android:text="@string/blogP"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -166,7 +166,7 @@
                 android:minWidth="48dp"
                 android:minHeight="48dp"
                 android:padding="8dp"
-                android:text="Soporte" />
+                android:text="@string/soporteP" />
 
             <Button
                 android:id="@+id/btnAlertas"
@@ -177,7 +177,7 @@
                 android:minWidth="48dp"
                 android:minHeight="48dp"
                 android:padding="8dp"
-                android:text="Alertas" />
+                android:text="@string/alertasP" />
         </LinearLayout>
 
     </LinearLayout>

@@ -18,4 +18,21 @@
     <string name="google">Google</string>
     <string name="crear_nueva_cuenta">Crear Nueva Cuenta</string>
     <string name="olvidaste_tu_contrase_a">¿Olvidaste Tu Contraseña?</string>
+    <string name="reserva">RESERVA</string>
+    <string name="fecha_inicio">Fecha inicio</string>
+    <string name="mm_dd_yyyy1">mm_dd_yyyy</string>
+    <string name="seleccionar_fecha_de_inicio">seleccionar fecha de inicio</string>
+    <string name="fecha_fin">Fecha fin</string>
+    <string name="mm_dd_yyyy">mm_dd_yyyy</string>
+    <string name="seleccionar_fecha_de_fin">Seleccionar_fecha_de_fin</string>
+    <string name="distrito">Distrito</string>
+    <string name="comenzar_reserva">Comenzar reserva</string>
+    <string name="bienbenida">Hola,Logan</string>
+    <string name="cerrar_seci_n">Cerrar seción</string>
+    <string name="reservaP">Reserva</string>
+    <string name="logros">Logros</string>
+    <string name="historial">Historial</string>
+    <string name="blogP">Blog</string>
+    <string name="soporteP">Soporte</string>
+    <string name="alertasP">Alertas</string>
 </resources>

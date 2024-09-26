@@ -1,6 +1,7 @@
-package com.example.appp_tp
+package com.example.ecomove
 
 import android.app.DatePickerDialog
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -10,6 +11,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.ecomove.R
 import java.util.Calendar
 
 class BookingActivity : AppCompatActivity() {
@@ -52,6 +54,9 @@ class BookingActivity : AppCompatActivity() {
             } else {
                 Toast.makeText(this, "Por favor completa todos los campos", Toast.LENGTH_LONG).show()
             }
+
+           val intent = Intent(this, RentVehicleActivity::class.java)
+              startActivity(intent)
         }
     }
 
