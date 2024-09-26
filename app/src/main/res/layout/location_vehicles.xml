@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6F4FB">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="4dp"
+        android:text="UBICACIÓN DE SCOOTERS"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv_ubicacion_scooter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_ubicacion_scooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="177dp"
+        android:text="UBICACIÓN DE SCOOTERS ELÉCTRICOS O BICICLETAS"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/image_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ubicacion_scooter"
+        app:srcCompat="@drawable/map" />
+
+    <TextView
+        android:id="@+id/tv_text_location"
+        android:layout_width="277dp"
+        android:layout_height="278dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="50dp"
+        android:text="En el mapa que se ha mostrado con anterioridad se puede evidenciar las bicicletas y scooters eléctricos que estan disponibles para uso de nuestros usuarios. Asimismo, se muestra un punto concurrido en el cual siempre se podran encontrar estos vehículos a disponibilidad del usuario."
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_map" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
